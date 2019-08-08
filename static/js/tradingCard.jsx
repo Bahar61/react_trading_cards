@@ -24,3 +24,13 @@ ReactDOM.render(
 	<TradingCard name="Llambda" skill="knitting scarves" imgUrl="/static/img/llambda.jpg" />,
 	document.getElementById('llambda')
 );
+
+ReactDOM.render(
+	<TradingCard name="Merge" skill="sleeping" imgUrl="/static/img/merge.jpg" />,
+	document.getElementById('merge')
+);
+
+ReactDOM.render(
+	<TradingCard name="Off-by-one" skill="dancing" imgUrl="/static/img/off-by-one.jpg" />,
+	document.getElementById('off-by-one')
+);
