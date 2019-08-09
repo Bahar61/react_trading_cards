@@ -1,13 +1,43 @@
 div.card {
+    text-align: center;
 	border-radius: 3px;
-	border: 3px solid black;
-	width: 20em;
-	height: 23em;
-	margin: 2em;
+	border: 5px solid blue;
+	width: 15em;
+	height: 15em;
+	margin: 1em;
 	padding: 1em;
+    color: darkorange;
+    font-size: 25px
 }
 
 body {
-	font-family: "Trebuchet MS", Helvetica, sans-serif	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: lightyellow;	
+
 }
 
+div.about {
+    text-align: center;
+    border-radius: 8px;
+    border: 3px solid purple;
+    font-size: 30px;
+    color: green;
+}
+
+div.landing {
+    text-align: center;
+    background-color: pink;
+    font-size: 30px;
+    color: purple;
+}
+
+h1 {
+    color: brown;
+    font-size: 30px;
+}
+
+#app > div > img {
+    width: 300px;
+    height: 300px;
+
+}

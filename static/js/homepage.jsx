@@ -2,8 +2,7 @@ class Homepage extends React.Component {
   render() {
     return (
       <div className="landing">
-        <h3>Let's Start!</h3>
-        <a src={this.props.url}/>
+        <a href={this.props.url}><h3>Let's Start!</h3></a>
         <img src={this.props.imgUrl}/>
       </div>
     );
